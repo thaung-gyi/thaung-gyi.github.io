@@ -19,7 +19,7 @@ navbar-links:
     - Learn k8s: "https://kubernetes.io"
     - Some K8s Demo: "https://github.com/thaunggyee/kubernetes"
   Author's home: "https://thaunggye.github.io"
-  Tags: ""
+  Tags: "https://thaunggye.github.io/tags"
 
 # --- Logo --- #
 avatar: "https://thaunggyee.github.io/img/avatar-hux-ny.jpg"
