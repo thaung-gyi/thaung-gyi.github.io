@@ -16,8 +16,8 @@ author: Thaung Htike Oo
 navbar-links:
   About Me: "aboutme"
   Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
+    - Learn k8s: "https://kubernetes.io"
+    - Some K8s Demo: "https://github.com/thaunggyee/kubernetes"
   Author's home: "https://thaunggye.github.io"
   Tags: ""
 
@@ -45,7 +45,7 @@ round-avatar: true
 social-network-links:
   email: "thaunghtikeoo.tho1234@example.com"
   facebook: Frozen.Rose.2014
-  github: thaunggye
+  github: thaunggyee
 
 #  medium: yourname
 #  reddit: yourname
