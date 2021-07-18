@@ -124,11 +124,11 @@ footer-link-col: "#404040"
 # For any extra visual customization, you can include additional CSS files in every page on your site. List any custom CSS files here
 #site-css:
 #  - "/assets/css/custom-styles.css"
----
-layout: default
-comments: true
-# other options
----
+# Disqus Comments
+disqus:
+  # Leave shortname blank to disable comments site-wide.
+  # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
+  shortname: thaungoo
 # If you have common JavaScript files that should be included in every page, list them here
 #site-js:
 #  - "/assets/js/custom-script.js"
