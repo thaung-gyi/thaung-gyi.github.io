@@ -25,7 +25,7 @@ navbar-links:
 avatar: "https://thaunggyee.github.io/img/avatar-hux-ny.jpg"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
-round-avatar: false
+round-avatar: true
 
 
 # Image to show in the navigation bar - works best with a square image
