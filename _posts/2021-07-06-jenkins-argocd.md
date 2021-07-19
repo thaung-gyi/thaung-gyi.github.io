@@ -123,7 +123,7 @@ argocd-redis                    ClusterIP   10.96.196.234   <none>        6379/T
 argocd-repo-server              ClusterIP   10.96.205.112   <none>        8081/TCP            6m4s
 argocd-server                   ClusterIP   10.96.215.91    <none>        80/TCP,443/TCP      6m4s
 ```
-ဒါဆိုရင် 10.96.215.91 ကို browser ကနေခေါ်လိုက်ပါ။ default username က admin ဖြစ်ပြီး password က argocd-server ရဲ့့ pod name 'argocd-server-5747c8dc9f-bnvcv' ဖြစ်ပါတယ်။ login ပြီးတဲ့အခါ console ကိုအောက်ကလိုတွေ့ရမှာဖြစ်ပါတယ်။
+ဒါဆိုရင် 10.96.215.91 ကို browser ကနေခေါ်လိုက်ပါ။ default username က admin ဖြစ်ပြီး password က argocd-server ရဲ့ pod name 'argocd-server-5747c8dc9f-bnvcv' ဖြစ်ပါတယ်။ login ပြီးတဲ့အခါ console ကိုအောက်ကလိုတွေ့ရမှာဖြစ်ပါတယ်။
 
 ![acon](https://raw.githubusercontent.com/thaunggye/thaunggye.github.io/master/img/acon.png)
 
