@@ -125,7 +125,7 @@ argocd-server                   ClusterIP   10.96.215.91    <none>        80/TCP
 ```
 ဒါဆိုရင် 10.96.215.91 ကို browser ကနေခေါ်လိုက်ပါ။ default username က admin ဖြစ်ပြီး password က argocd-server ရဲ့့ pod name 'argocd-server-5747c8dc9f-bnvcv' ဖြစ်ပါတယ်။ login ပြီးတဲ့အခါ console ကိုအောက်ကလိုတွေ့ရမှာဖြစ်ပါတယ်။
 
-![acon]()
+![acon](https://raw.githubusercontent.com/thaunggye/thaunggye.github.io/master/img/acon.png)
 
 ပုံမှန်ဆိုရင် kubectl command နဲ့ kubernetes ပေါ်မှာ deploy လုပ်ကြပါတယ်။ argo မှာကျ k8s ပေါ်တင်မယ့် resource တွေကို သေချာ plan ချပြီးသွားတဲ့အခါ main branch ပေါ်တင်ကြပါတယ်။ argocd က kubernetes နဲ့ ဆိုင်တဲ့ deployment ၊ service ၊ ingress စတာတွေကို git repo ကနေယူပြီး k8s ပေါ် deploy လုပ်ပေးတာပါ။ commit တစ်ခုဖြစ်တိုင်း git repo နဲ့ k8s ကို sync လုပ်ပေးတာပါ။ အသေးစိတ်ကိုတော့ argocd ဆိုပြီး ရှာဖတ်နိင်ပါတယ်။ ဒါဆိုရင် အခု argocd ပေါ်မှာ jenkins နဲ့ build ခဲ့တဲ့ image ကိုသုံးပြီး app တစ်ခု create ပြီး k8s ပေါ်တင်ပါမယ်။ 
 
@@ -172,11 +172,11 @@ spec:
 
 yaml file ရေးပြီးပြီဆိုရင် argocd app တစ်ခု create ပါမယ်။ New App ကနေ app name-mcapp ၊ project-default ၊ sync policy မှာတော့ auto ၊ repo မှာ github က repo ၊ path က kubernetes ၊ cluster က https://kubernetes.default.svc ၊ namespace မှာ default အကုန်ပေးပြီးရင် create လိုက်ပါ။ ဒါဆိုရင် အောက်မှာတွေ့ရတဲ့အတိုင်း mcapp ဆိုပြီး application တစ်ခုရလာပါပြီ။
 
-![am]()
+![am](https://raw.githubusercontent.com/thaunggye/thaunggye.github.io/master/img/am.png)
 
 auto sync ပေးခဲ့တော့ sync လုပ်ပြီးတဲ့အခါ app ကို click တစ်ချက်နှိပ်လိုက်ရင် deploy နဲ့ svc run နေတာကိုတွေ့ရမှာပါ။
 
-![am1]()
+![am1](https://raw.githubusercontent.com/thaunggye/thaunggye.github.io/master/img/am1.png)
 
 k8s terminal ကကြည့်ရင်လည်း deployment နဲ့ service run နေတာကိုတွေ့ရမှာဖြစ်ပါတယ်။
 
@@ -197,7 +197,7 @@ replicaset.apps/mcapp-d949c5bc7   1         1         1         5m22s
 ```
 mcapp pod ကို port-forward လုပ်ကြည့်ရင် monthly challenges app ကိုတွေ့ရမှာဖြစ်ပါတယ်။ 
 
-![mcw]()
+![mcw](https://raw.githubusercontent.com/thaunggye/thaunggye.github.io/master/img/mcw.png)
 
 Thanks for reading ...
 
