@@ -199,6 +199,8 @@ mcapp pod ကို port-forward လုပ်ကြည့်ရင် monthly ch
 
 ![mcw](https://raw.githubusercontent.com/thaunggye/thaunggye.github.io/master/img/mcw.png)
 
+အာလုံးကိုကျေးဇူးတင်ပါတယ်ခင်ဗျာ။ ကျန်းမာရေးကောင်းအောင်လည်းဂရုစိုက်ကြပါ။ 
+
 Thanks for reading ...
 
 
