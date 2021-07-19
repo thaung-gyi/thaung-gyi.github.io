@@ -30,11 +30,11 @@ Jenkins install လုပ်နည်းကို ရှင်းပြပြီ
 
 Jenkins dashboard ထဲရောက်သွားပြီဆိုရင် New Item ကနေ pipeline project တစ်ခု create ပါမယ်။ name ကိုတော့ djano_app လို့ပေးထားပါတယ်။ docker နဲ့ဆိုင်တာတွေကို jenkins မှာလုပ်မှာဆိုတော့ Manage Plugins ထဲကနေ docker plugins ကို install ပေးရပါမယ်။ 
 
-![dapp]()
+![dapp](https://raw.githubusercontent.com/thaunggye/thaunggye.github.io/master/img/dapp.png)
 
 github project မှာ demo အတွက်သုံးမယ်ံ repo ကိုထည့်ပါမယ်။
 
-![p1]()
+![p1](https://raw.githubusercontent.com/thaunggye/thaunggye.github.io/master/img/dp1.png)
 
 pipeline script ထဲမှာတော့ docker image ကို build လုပ်ဖို့၊ push လုပ်ဖို့အတွက်ရေးပေးမှာဖြစ်ပါတယ်။ script ကို အောက်မှာကြည့်နိုင်ပါတယ်။ ပထမအဆင့်မှာ git repo နဲ့ branch ကိုထည့်မယ်၊ ပြီးရင် docker image ကို build မယ် name က mcapp ၊ tag က 1.$BUILD_NUMBER ဆိုပြီးပေးမယ်။ ပြီးရင် docker login လုပ်ပြီး docker hub ထဲကို push လိုက်ပါမယ်။
 
@@ -73,8 +73,8 @@ pipeline {
 ```
 ပြီးသွားရင်တော့ save and apply ကိုနှိပ်လိုက်ပါ။ ဒါဆိုရင် pipeline ကို build လုပ်လို့ရပါပြီ။ ဘေးက BUILD NOW ဆိုတာကိုနှိပ်လိုက်ရင် pipeline တစ်ခု build နေတာကိုအခုလိုတွေ့ရမှာဖြစ်ပါတယ်။
 
-![finish]()
+![finish](https://raw.githubusercontent.com/thaunggye/thaunggye.github.io/master/img/fs.png)
 
 build တာပြီးသွားပြီဆိုရင် docker hub ထဲမှာ mcapp ဆိုပြီး image တစ်ခုတွေ့ရမှာဖြစ်ပါတယ်။ tag ကတော့ build တစ်ခုပဲရှိသေးတော့ 1.1 တစ်ခုပဲရှိပါဦးမယ်။
 
-![mcapp1]()
+![mcapp1](https://raw.githubusercontent.com/thaunggye/thaunggye.github.io/master/img/mcapp1.png)
