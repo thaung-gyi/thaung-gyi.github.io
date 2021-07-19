@@ -17,9 +17,9 @@ tags:
 ကျွန်တော်ဒီနေ့တော့ GitOps အကြောင်းကိုနားလည်သလောက် ရှင်းပြသွားမှာဖြစ်ပါတယ်။ ပြီးရင် demo တစ်ခုနဲ့စမ်းပြပါမယ်။ ဒီနေ့အတွက်ခေါင်းစဥ် ကိုတော့ 'gitops in kubernetes with jenkins and argocd' လို့ပေးထားပါတယ်။ ဒီနေ့ demo မှာ jenkins ကို docker image တွေ build လုပ်ဖို့၊ pushလုပ်ဖို့ စသည်တို့အတွက် CI tool အဖြစ်သုံးမှာဖြစ်ပြီး argocd ကိုတော့ kubernetes အတွက် continuous deployments တွေလုပ်ဖို့သုံးမှာဖြစ်ပါတယ်။
 Jenkins install လုပ်နည်းကို ရှင်းပြပြီးပြီ ဆိုတော့ ပထမဆုံးအနေနဲ့ jenkins pipeline တစ်ခုကို create ပါမယ်။ jenkins install လုပ်ပုံကို အောက်က link မှာဖတ်နိုင်ပါတယ်။
 
-[install_jenkins](https://thaunggye.github.io/2021-07-07-jenkins)
+[How To Install Jenkins On Ubuntu 20.04 LTS](https://thaunggye.github.io/2021-07-07-jenkins)
 
-<h2> Prequities </h2>
+<h2> Prerequities </h2>
 
 <ul>
     <li> Jenkins Server </li>
