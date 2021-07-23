@@ -22,7 +22,7 @@ navbar-links:
   Tags: "https://thaunggye.github.io/tags"
 
 # --- Logo --- #
-avatar: "https://raw.githubusercontent.com/thaunggye/thaunggye.github.io/master/img/avatar-hux-ny.png"
+avatar: "https://raw.githubusercontent.com/thaunggye/thaunggye.github.io/master/img/devops.png"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
@@ -103,7 +103,7 @@ post_search: true
 navbar-col: "white"
 navbar-text-col: "black"
 navbar-border-col: "#DDDDDD"
-page-col: "#FFFFFF"
+page-col: "oragne"
 text-col: "#404040"
 link-col: "#008AFF"
 hover-col: "#0085A1"
