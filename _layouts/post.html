@@ -78,16 +78,12 @@ layout: base
       </ul>
       {% include related-posts.html %}
       <!-- Recent and Popular Posts -->
-      <div class="row">
-           <div class="large-6 small-12 columns">
-                <br><h2>  Recent Posts</h2>
-                <ul class="posts">  
-                    {% for post in site.posts limit:5 %}  
-                       <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>  
-                    {% endfor %}  
-                </ul>
-           </div>
-      </div>
+      <br><h2>  Recent Posts</h2>
+      <ul class="posts">  
+          {% for post in site.posts limit:5 %}  
+             <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>  
+          {% endfor %}  
+      </ul>
       {% if site.disqus.shortname %}
         {% include disqus_comments.html %}
       {% endif %}
