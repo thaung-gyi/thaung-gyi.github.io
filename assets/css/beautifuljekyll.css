@@ -455,7 +455,7 @@ footer .footer-custom-content {
 }
 
 .post-preview .post-title {
-  font-size: 1.875rem;
+  font-size: 1.5rem;
   margin-top: 0;
 }
 .post-preview .post-subtitle {
@@ -547,7 +547,7 @@ footer .footer-custom-content {
 
 .blog-tags {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 0.9375rem;
+  font-size: 0.6rem;
   margin: 1.875rem 0;
 }
 
@@ -854,7 +854,7 @@ pre code {
 }
 
 pre {
-  font-size: 0.875rem;
+  font-size: 0.9rem;
   line-height: 1.5em;
   border-radius: 0.25rem;
   padding: 0.59375rem;
