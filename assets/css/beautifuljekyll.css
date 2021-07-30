@@ -838,7 +838,39 @@ table tr td :last-child {
   margin-bottom: 0;
 }
 
+/* --- Code blocks --- */
 
+code {
+  padding: 0.125rem 0.25rem;
+  color: black;
+  background-color: white;
+  border-radius: 0.25rem;
+}
+
+pre code {
+  padding: 0;
+  background-color: white;
+  border-radius: 0;
+}
+
+pre {
+  font-size: 0.9rem;
+  line-height: 1.5em;
+  border-radius: 0.25rem;
+  padding: 0.59375rem;
+}
+
+
+/* Make line numbers unselectable: excludes line numbers from copy-paste user ops */
+.lineno {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.lineno::selection, .lineno::-moz-selection {
+  background: none;
+}
 
 /* Fix table border github gist snippets */
 
