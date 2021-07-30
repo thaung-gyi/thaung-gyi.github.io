@@ -859,7 +859,34 @@ pre {
   border-radius: 0.25rem;
   padding: 0.59375rem;
 }
-
+.highlight pre {
+  border: none;
+  background: white;
+  margin: 0;
+}
+.highlight > pre {
+  background-image: demo;
+  background-size: auto 3em;
+  background-position-y: 0.625rem;
+  border: 1px solid rgba(0,0,0,0.1);
+  border-left: 0.4375rem solid #444;
+}
+.highlight > pre:not([class~="highlight"]) { /* code block with line number */
+  padding: 0;
+}
+.highlight table,
+.highlight tr,
+.highlight td { /* to be removed after fixing table styles */
+  border: none;
+  background: white;
+  padding: 0;
+  margin: 0;
+}
+.highlight pre.lineno {
+  color: rgba(0,0,0,0.3);
+  border-radius: 0;
+  border-right: 2px solid #444;
+}
 
 /* Make line numbers unselectable: excludes line numbers from copy-paste user ops */
 .lineno {
@@ -869,9 +896,8 @@ pre {
           user-select: none;
 }
 .lineno::selection, .lineno::-moz-selection {
-  background: none;
+  background: white;
 }
-
 /* Fix table border github gist snippets */
 
 .gist, .gist-file table tr {
